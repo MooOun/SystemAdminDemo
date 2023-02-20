@@ -90,3 +90,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = BlockChainGUI(master=root)
     app.mainloop()
+
+
+print('Eieieieieiei')

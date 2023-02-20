@@ -64,13 +64,15 @@ class BlockChain:
         raise BaseException(f"Couldn't find Correct hash after trying {nonce_limit} time")
 
 
+
 print('Build BlockChain')
+
+#เรียกใช้งานฟังก์ชั่น 
 block=BlockChain()
 block.hashblock()
 block.addToBlockkchain()
 
 #สร้างBlockChainใหม่
-
 block.create_newblock("block 2")
 block.create_newblock("block 3")
 block.create_newblock("block 4")
