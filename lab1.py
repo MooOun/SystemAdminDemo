@@ -98,6 +98,6 @@ for block in block.blockchainList:
     print("Previous Hash : ", block['previous_hash'])
     print("Hash : ", block['hash'])
     print("TimeStamp : ", block['timestamp'])
-    print("-----------------------------------------")  
+  
 
 
